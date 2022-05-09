@@ -25,8 +25,8 @@ function MyApp({ Component, pageProps }) {
       {router.asPath ? (
         config?.titles[router?.asPath] ? (
           config?.titles[router?.asPath] + ' | ' + config?.titleSuffix
-        ) : 'Blank | janjytapyt.ml'
-      ) : 'Loading... | janjytapyt.ml'}
+        ) : 'Blank | janjytapyt.live'
+      ) : 'Loading... | janjytapyt.live'}
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </Head>
