@@ -117,8 +117,8 @@ export default function Home({ better }) {
                                 </div>
                               </Tippy>
                               <div className="text-sm text-black bg-zinc-200 px-2 py-1 rounded-md mr-1">
-                                {_.language || "Empty"}
-                              </div>
+                      {p?.language || "Plain/Text"}
+                             </div>
                               <Tippy
                                 content={"Forks"}
                                 arrow={true}
