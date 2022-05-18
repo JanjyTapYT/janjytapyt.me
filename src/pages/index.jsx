@@ -88,19 +88,19 @@ export default function Home({ better }) {
         {_repos ? (
           repos && (
             <>
-                {repos?.slice(0,8)?.sort((a,b) => b.stargazers_count - a.stargazers_count)?.map((_, __) => (
+                {repos?.slice(0,8)?.sort((a,b) => b.stargazers_count - a.stargazers_count)?.map((p, i) => (
                   <a
-                          key={__}
-                          href={`https://github.com/${_.full_name}`}
+                          key={i}
+                          href={`https://github.com/${p?.full_name}`}
                           target="_blank"
                           rel="noreferrer"
                           className="bg-zinc-100 p-6 hover:bg-zinc-700/10 h-auto text-black transition-all duration-200 rounded-lg w-full"
                         >
                           <p className="text-sm">
                             <span className="text-sm text-black bg-zinc-500/20 px-2 py-1 rounded-md mr-1">
-                              {_.owner.login}
+                              {p?.owner.login}
                             </span>
-                            {_.name}
+                            {p?.name}
                           </p>
                           <div className="flex justify-end w-full h-full items-center">
                             <div className="flex w-full justify-between items-center">
@@ -113,7 +113,7 @@ export default function Home({ better }) {
                                   <p className="text-sm">
                                     <i className="fal fa-star mr-2" />
                                   </p>
-                                  <p>{_.stargazers_count}</p>
+                                  <p>{p?.stargazers_count}</p>
                                 </div>
                               </Tippy>
                               <div className="text-sm text-black bg-zinc-200 px-2 py-1 rounded-md mr-1">
@@ -125,7 +125,7 @@ export default function Home({ better }) {
                                 animation="shift-away"
                               >
                                 <div className="flex items-center justify-end">
-                                  <p>{_.forks}</p>
+                                  <p>{p?.forks}</p>
                                   <p className="text-sm">
                                     <i className="fal fa-code-branch ml-2" />
                                   </p>
