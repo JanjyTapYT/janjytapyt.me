@@ -8,20 +8,9 @@ export default async (req, res) => {
         }
     })).json();
 
-    let __ = await (await fetch('https://api.github.com/users/Stoneclane-Studios/repos', {
-        headers: {
-            Authorization: 'token '+key1+key2
-        }
-    })).json();
-    
-    let ___ = await (await fetch('https://api.github.com/users/GiveAways-ml/repos', {
-        headers: {
-            Authorization: 'token '+key1+key2
-        }
-    })).json();
     
     try {
-        res.send([..._, ...__, ...___])
+        res.send([..._])
     } catch {
         res.status(500);
     }
