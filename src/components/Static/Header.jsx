@@ -75,7 +75,7 @@ export default function Header() {
         >
             <div style={{ zIndex: 9999 }} className="p-6 bg-zinc-100 h-full fixed w-full top-0 left-0">
                 <div className="flex justify-between w-full items-center">
-                    <p className="cursor-pointer font-semibold text-2xl">JanjyTaPYT<span className="text-cIndigo">.</span></p>
+                    <p className="cursor-pointer font-semibold text-2xl">JanjyTapYT<span className="text-cIndigo">.</span></p>
                     <p onClick={() => {
                         setIsOpen(!isOpen)
                         document.documentElement.classList.remove('overflow-hidden');
