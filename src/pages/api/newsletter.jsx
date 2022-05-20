@@ -12,7 +12,7 @@ export default async (req, res) => {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          username: 'janjytapyt.ml | Newsletter Application',
+          username: 'janjytapyt.live | Newsletter Application',
           attachments: [],
           embeds: [
             {
