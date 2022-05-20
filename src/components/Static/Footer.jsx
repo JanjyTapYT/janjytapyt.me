@@ -17,7 +17,7 @@ const Footer = ({ better }) => {
           <div className="lg:flex space-x-6 items-center">
             <div className="text-left mt-2 lg:mt-0 lg:text-right">
                 <p>
-                janjytapyt.ml &copy; 2022 - {new Date().getFullYear()}, All rights
+                janjytapyt.live &copy; 2022 - {new Date().getFullYear()}, All rights
                 reserved.
                 </p>
 
