@@ -2,7 +2,7 @@ export default async (req, res) => {
   const data = [
     {
       id: 1,
-      image: "https://cdn.discordapp.com/attachments/952628698807414785/963490952188690463/New_Stoneclane_List_Logo_Faded.png",
+      image: "https://cdn.discordapp.com/attachments/971049189377179718/978758525805289502/k.jpg",
       name: "Stoneclane List",
       description:
         "It is an botlist and serverlist witch uptime system and more!",
@@ -12,7 +12,7 @@ export default async (req, res) => {
     },
     {
       id: 2,
-      image: "https://cdn.discordapp.com/attachments/849221365151170581/951525925189722212/giveaways_logo.png",
+      image: "https://cdn.discordapp.com/attachments/971049189377179718/978758525129994271/g.jpg",
       name: "GiveAways",
       description:
         "you can create with this bot GiveAways giveaways you like",
@@ -22,17 +22,17 @@ export default async (req, res) => {
     },
     {
       id: 3,
-      image: "https://cdn.discordapp.com/attachments/971049189377179718/971848852002963546/5.png",
+      image: "https://cdn.discordapp.com/attachments/971049189377179718/978758524861546506/t.jpg",
       name: "TrestHost",
       description:
-        "Minecraft Server Hosting",
+        "Take advantage of Minecraft and Discord bots or other services with TrestHost and feel the pride of being active 24/7. ",
       link: "https://tresthost.com",
       language: "React",
       languageIcon: "./assets/techs/react.svg",
     },
     {
       id: 4,
-      image: "https://media.discordapp.net/attachments/971049189377179718/975836381207228456/logo.png",
+      image: "https://cdn.discordapp.com/attachments/971049189377179718/978758526086316153/p.jpg",
       name: "Praxive",
       description:
         "Another dimension, another life. next generation browser.",
@@ -42,7 +42,7 @@ export default async (req, res) => {
      },
     {
       id: 5,
-      image: "https://cdn.discordapp.com/attachments/971049189377179718/978755640191254628/Cruise_bot_Logo.png",
+      image: "https://cdn.discordapp.com/attachments/971049189377179718/978758526367313970/c.jpg",
       name: "Cruise",
       description:
         "The only one discord bot you ever need! The bot have a powerfull web dashboard and more than 250+ Commands!",
