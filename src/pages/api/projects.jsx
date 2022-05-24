@@ -30,6 +30,36 @@ export default async (req, res) => {
       language: "React",
       languageIcon: "./assets/techs/react.svg",
     },
+    {
+      id: 4,
+      image: "https://cdn.discordapp.com/attachments/971049189377179718/971848852002963546/5.png",
+      name: "TrestHost",
+      description:
+        "Minecraft Server Hosting",
+      link: "https://tresthost.com",
+      language: "React",
+      languageIcon: "./assets/techs/react.svg",
+    },
+    {
+      id: 5,
+      image: "https://media.discordapp.net/attachments/971049189377179718/975836381207228456/logo.png",
+      name: "Praxive",
+      description:
+        "Another dimension, another life. next generation browser.",
+      link: "https://praxive.sdevs.org",
+      language: "React",
+      languageIcon: "./assets/techs/react.svg",
+     },
+    {
+      id: 6,
+      image: "https://cdn.discordapp.com/attachments/971049189377179718/978755640191254628/Cruise_bot_Logo.png",
+      name: "Cruise",
+      description:
+        "The only one discord bot you ever need! The bot have a powerfull web dashboard and more than 250+ Commands!",
+      link: "https://cruise.tk",
+      language: "Nodejs",
+      languageIcon: "./assets/techs/nodejs.svg",
+     },
   ];
   res.status(200).json(data);
 };
