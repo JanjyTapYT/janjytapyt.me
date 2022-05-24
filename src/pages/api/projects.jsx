@@ -12,16 +12,6 @@ export default async (req, res) => {
     },
     {
       id: 2,
-      image: "https://cdn.discordapp.com/attachments/964255324687200328/964255364151377991/9a1428be2f9a23c4a798e8e82cf75e5b.png",
-      name: "Soundpro",
-      description:
-        "It is an public ultra quality music bot",
-      link: "https://dsc.gg/soundpro",
-      language: "Node.js",
-      languageIcon: "./assets/techs/nodejs.svg",
-    },
-    {
-      id: 3,
       image: "https://cdn.discordapp.com/attachments/849221365151170581/951525925189722212/giveaways_logo.png",
       name: "GiveAways",
       description:
@@ -31,7 +21,7 @@ export default async (req, res) => {
       languageIcon: "./assets/techs/react.svg",
     },
     {
-      id: 4,
+      id: 3,
       image: "https://cdn.discordapp.com/attachments/971049189377179718/971848852002963546/5.png",
       name: "TrestHost",
       description:
@@ -41,7 +31,7 @@ export default async (req, res) => {
       languageIcon: "./assets/techs/react.svg",
     },
     {
-      id: 5,
+      id: 4,
       image: "https://media.discordapp.net/attachments/971049189377179718/975836381207228456/logo.png",
       name: "Praxive",
       description:
@@ -51,7 +41,7 @@ export default async (req, res) => {
       languageIcon: "./assets/techs/react.svg",
      },
     {
-      id: 6,
+      id: 5,
       image: "https://cdn.discordapp.com/attachments/971049189377179718/978755640191254628/Cruise_bot_Logo.png",
       name: "Cruise",
       description:
