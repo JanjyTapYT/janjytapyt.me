@@ -21,7 +21,7 @@ export default function Home({ better }) {
 
   useEffect(() => {
     (async() => {
-      let _user = await fetch('https://linkcord.js.org/api/v3/user/679407120743137300').then(r => r.json());
+      let _user = await fetch('https://api.lanyard.rest/v1/users/679407120743137300').then(r => r.json());
       setUser(_user?.data || {});
     })();
   }, [router]);
