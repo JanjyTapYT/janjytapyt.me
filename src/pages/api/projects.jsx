@@ -45,7 +45,7 @@ export default async (req, res) => {
       image: "https://cdn.discordapp.com/attachments/971049189377179718/978758526367313970/c.jpg",
       name: "Cruise",
       description:
-        "The only one discord bot you ever need! The bot have a powerfull web dashboard and more than 250+ Commands!",
+        "The only one discord bot you ever need! The bot have a powerfull web dashboard and more than 180+ Commands!",
       link: "https://cruise.tk",
       language: "Nodejs",
       languageIcon: "./assets/techs/nodejs.svg",
