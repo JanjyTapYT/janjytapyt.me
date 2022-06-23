@@ -5,7 +5,7 @@ export default async (req, res) => {
       image: "https://cdn.discordapp.com/attachments/971049189377179718/978758525805289502/k.jpg",
       name: "Stoneclane List",
       description:
-        "It is an botlist and serverlist witch uptime system and more!",
+        "It is an botlist and serverlist with uptime system and more!",
       link: "https://stoneclane.xyz",
       language: "Next.js",
       languageIcon: "./assets/techs/nextjs.svg",
@@ -15,7 +15,7 @@ export default async (req, res) => {
       image: "https://cdn.discordapp.com/attachments/971049189377179718/978758525129994271/g.jpg",
       name: "GiveAways",
       description:
-        "you can create with this bot GiveAways giveaways you like",
+        "You can create with this bot GiveAways giveaways you like",
       link: "https://giveaways-bot.com",
       language: "React",
       languageIcon: "./assets/techs/react.svg",
