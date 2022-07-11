@@ -21,7 +21,7 @@ export default function Home({ better }) {
 
   useEffect(() => {
     (async() => {
-         let _user = await fetch('https://linkcord.js.org/api/v3/user/679407120743137300').then(r => r.json());
+         let _user = await fetch('https://api.lanyard.rest/v1/users/679407120743137300').then(r => r.json());
       setUser(_user?.data || {});
     })();
   }, [router]);
@@ -69,9 +69,8 @@ export default function Home({ better }) {
          better so that it guides the industry.
         </h1>
         <div className="hidden lg:block absolute w-full bottom-20">
-          {user?.username && (
+          {user?.discord_user.username && (
             <div className="w-full flex justify-center items-center space-x-4">
-              <img style={{ zIndex: 2 }} draggable={false} className={`transition-all ${slideAvatar ? 'translate-x-0' : 'translate-x-72'} duration-500 rounded-full flex-shrink-0`} width="172" height="72" src={"../../public/img/logo.gif"} />
               <p className={`${slideAvatar ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-72'} transition-all duration-500 break-words max-w-xl text-xl font-semibold`}>Hi, I am JanjyTapYT. I have been spending time with codes for about 1-2 years. I really dont know anything more about me. Thanks for reading :)</p>
             </div>
           )}
