@@ -22,7 +22,7 @@ export default function Home({ better }) {
   useEffect(() => {
     (async() => {
          let _user = await fetch('https://api.lanyard.rest/v1/users/679407120743137300').then(r => r.json());
-      setUser(_user?.data || {});
+      setUser(_user?.data.discord_user || {});
     })();
   }, [router]);
 
@@ -69,7 +69,7 @@ export default function Home({ better }) {
          better so that it guides the industry.
         </h1>
         <div className="hidden lg:block absolute w-full bottom-20">
-          {user?.discord_user.username && (
+          {user?.username && (
             <div className="w-full flex justify-center items-center space-x-4">
               <p className={`${slideAvatar ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-72'} transition-all duration-500 break-words max-w-xl text-xl font-semibold`}>Hi, I am JanjyTapYT. I have been spending time with codes for about 1-2 years. I really dont know anything more about me. Thanks for reading :)</p>
             </div>
