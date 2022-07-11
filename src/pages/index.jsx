@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Fragment, useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import '../../public/img/logo.gif';
 import swr from '../libraries/swr';
 import Tippy from "@tippyjs/react";
 import Link from 'next/link';
@@ -72,7 +71,7 @@ export default function Home({ better }) {
         <div className="hidden lg:block absolute w-full bottom-20">
           {user?.username && (
             <div className="w-full flex justify-center items-center space-x-4">
-              <img style={{ zIndex: 2 }} draggable={false} className={`transition-all ${slideAvatar ? 'translate-x-0' : 'translate-x-72'} duration-500 rounded-full flex-shrink-0`} width="172" height="72" src={'../../public/img/logo.gif'} />
+              <img style={{ zIndex: 2 }} draggable={false} className={`transition-all ${slideAvatar ? 'translate-x-0' : 'translate-x-72'} duration-500 rounded-full flex-shrink-0`} width="172" height="72" src={"../../public/img/logo.gif"} />
               <p className={`${slideAvatar ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-72'} transition-all duration-500 break-words max-w-xl text-xl font-semibold`}>Hi, I am JanjyTapYT. I have been spending time with codes for about 1-2 years. I really dont know anything more about me. Thanks for reading :)</p>
             </div>
           )}
