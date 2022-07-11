@@ -71,7 +71,7 @@ export default function Home({ better }) {
         <div className="hidden lg:block absolute w-full bottom-20">
           {user?.username && (
             <div className="w-full flex justify-center items-center space-x-4">
-              <img style={{ zIndex: 2 }} draggable={false} className={`transition-all ${slideAvatar ? 'translate-x-0' : 'translate-x-72'} duration-500 rounded-full flex-shrink-0`} width="172" height="72" src={`https://cdn.discordapp.com/avatars/679407120743137300/a_60c961301fa8d89914496e7c90f60a0e?size=4096`} />
+              <img style={{ zIndex: 2 }} draggable={false} className={`transition-all ${slideAvatar ? 'translate-x-0' : 'translate-x-72'} duration-500 rounded-full flex-shrink-0`} width="172" height="72" src={`https://cdn.discordapp.com/avatars/679407120743137300/a_60c961301fa8d89914496e7c90f60a0e.gif?size=4096`} />
               <p className={`${slideAvatar ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-72'} transition-all duration-500 break-words max-w-xl text-xl font-semibold`}>Hi, I am JanjyTapYT. I have been spending time with codes for about 1-2 years. I really dont know anything more about me. Thanks for reading :)</p>
             </div>
           )}
