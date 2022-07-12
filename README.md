@@ -39,7 +39,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 
 ## Credits to clqu
-This site is originaly made by [clqu](https://github.com/clqu) and the original repo can get found here: [Original Repo](https://github.com/clqu/clqu.live) dont forget to give credit to clqu if you use this site!
+This site is originaly designed by [clqu](https://github.com/clqu) and the original repo can get found here: [Original Repo](https://github.com/clqu/clqu.live) dont forget to give credit to clqu if you use this site!
 
 
 ## ⭐ Star
