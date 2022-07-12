@@ -1,6 +1,6 @@
 {
-  "name": "clqu.live",
-  "private": true,
+  "name": "janjytapyt.me",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",

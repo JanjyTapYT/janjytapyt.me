@@ -40,18 +40,18 @@ function MyApp({ Component, pageProps }) {
         <title>Site | JanjyTapYT</title>
         <link rel="icon" href="https://cdn.discordapp.com/attachments/925001268450177065/962412339137761350/unknown.png" type="image/gif" sizes="4x4"></link>
         <meta name="title" content="JanjyTapYT's Website"></meta>
-        <meta name="og:url" content="https://janjytapyt.ml" />
+        <meta name="og:url" content="https://janjytapyt.me" />
         <meta name="og:description" content="The official website of JanjyTapYT visit all the information about him here."></meta>
-        <meta name="og:url" content="https://janjytapyt.ml" />
+        <meta name="og:url" content="https://janjytapyt.me" />
         <meta name="og:image" content="https://cdn.discordapp.com/attachments/909503780448514101/923642827739652116/janjytapyt-animated.gif" />
         <meta name="description" content="The official website of JanjyTapYT visit all the information about him here."></meta>
         <meta property="og:type" content="website"></meta>
-        <meta property="og:url" content="https://janjytapyt.ml/"></meta>
+        <meta property="og:url" content="https://janjytapyt.me/"></meta>
         <meta property="og:title" content="JanjyTapYT's Website"></meta>
         <meta property="og:description" content="The official website of JanjyTapYT visit all the information about him here."></meta>
         <meta property="og:image" content="https://cdn.discordapp.com/attachments/909503780448514101/923642827739652116/janjytapyt-animated.gif"></meta>
         <meta property="twitter:card" content="summary_large_image"></meta>
-        <meta property="twitter:url" content="https://janjytapyt.ml/"></meta>
+        <meta property="twitter:url" content="https://janjytapyt.me/"></meta>
         <meta property="twitter:title" content="JanjyTapYT's Website"></meta>
         <meta property="twitter:description" content="The official website of JanjyTapYT visit all the information about him here."></meta>
         <meta property="twitter:image" content="https://cdn.discordapp.com/attachments/909503780448514101/923642827739652116/janjytapyt-animated.gif"></meta>
@@ -72,7 +72,7 @@ function MyApp({ Component, pageProps }) {
         <div style={{ zIndex: 99999 }} className="fixed bg-black/50 w-full h-screen flex justify-center items-center pointer-events-none">
             <div className="flex items-center gap-x-6 animate-pulse">
                 <div className="text-center">
-                    <p className="text-6xl mb-5 font-semibold">janjytapyt.ml</p>
+                    <p className="text-6xl mb-5 font-semibold">janjytapyt.me</p>
                     <p className="uppercase text-xl font-semibold text-white"><i className="fal fa-spinner-third fa-spin" /></p>
                 </div>
             </div>
@@ -88,6 +88,7 @@ function MyApp({ Component, pageProps }) {
           <div className="md:flex w-full items-center justify-between">
             <div>
                <p>Copyright &copy; 2022 - Developed with ❤️ by <a href="https://github.com/clqu/" target="_blank" rel="noreferrer" className="hover:text-red-500 transition-all duration-200">clqu</a>, <a href="https://github.com/JanjyTapYT/" target="_blank" rel="noreferrer" className="hover:text-red-500 transition-all duration-200">JanjyTapYT</a></p>
+               <a href="https://github.com/JanjyTapYT/janjytapyt.me/tree/v1" target="_blank" rel="noreferrer" className="hover:text-red-500 transition-all duration-200">This website is open source on GitHub.</a>
             </div>
             <div className="mt-2 md:mt-0 flex items-center">
               <a href="https://discord.gg/5t6S5T53Kd" target="_blank" rel="noreferrer" className="w-full md:w-auto rounded-lg bg-[#191932]/20 p-2 px-6 hover:bg-[#191932]/30 shadow-lg shadow-white/0 hover:shadow-3xl hover:shadow-[#191932]/20 transition-all duration-200">

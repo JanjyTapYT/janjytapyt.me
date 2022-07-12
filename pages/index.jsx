@@ -18,7 +18,7 @@ const items = [
 
 export default function Home() {
   const { data: _profile } = swr(
-    "https://linkcord.swoth.xyz/api/v1/user/679407120743137300"
+    "https://api.lanyard.rest/v1/users/679407120743137300"
   );
   const profile = _profile ? _profile.data : null;
 
@@ -53,21 +53,21 @@ export default function Home() {
                   <p className="flex items-center text-white text-4xl font-semibold">
                     JanjyTapYT
                   </p>
-                  {profile.user.status !== "offline" && (
+                  {profile.discord_status !== "offline" && (
                     <Tippy
                       content={`${
-                        statuses[profile.user.status].label
+                        statuses[profile.discord_status].label
                       } on Discord`}
                       animation="shift-away"
                       arrow={false}
                     >
                       <span
-                        className={`ml-2 text-${profile.user.status} px-2 py-1 font-normal rounded-md text-sm`}
+                        className={`ml-2 text-${profile.discord_status} px-2 py-1 font-normal rounded-md text-sm`}
                       >
                         <i
-                          className={`fa fa-circle text-${profile.user.status} mr-2`}
+                          className={`fa fa-circle text-${profile.discord_status} mr-2`}
                         />
-                        {statuses[profile.user.status].label}
+                        {statuses[profile.discord_status].label}
                       </span>
                     </Tippy>
                   )}
@@ -83,16 +83,16 @@ export default function Home() {
                 >
                   <img
                     alt="clqu"
-                    src={`https://cdn.discordapp.com/avatars/${profile.profile.id}/${profile.profile.avatar}`}
+                    src={`https://cdn.discordapp.com/avatars/${profile.discord_user.id}/${profile.discord_user.avatar}`}
                     width="160"
                     height="160"
                     className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`}
                   />
                   <div
-                    className={`pulse-avatar-${profile.presence.status} rounded-full flex items-center absolute bottom-2 right-2`}
+                    className={`pulse-avatar-${profile.discord_status} rounded-full flex items-center absolute bottom-2 right-2`}
                   >
                     <Tippy
-                      content={statuses[profile.presence.status].label}
+                      content={statuses[profile.discord_status].label}
                       animation="shift-away"
                       arrow={false}
                     >
