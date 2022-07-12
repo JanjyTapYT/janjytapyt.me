@@ -29,6 +29,9 @@ const Footer = ({ better }) => {
                 <p>
                     Developed with ❤️ by <a href="https://github.com/clqu/" target="_blank" rel="noreferrer" className="hover:text-red-500 transition-all duration-200">clqu</a>, <a href="https://github.com/JanjyTapYT/" target="_blank" rel="noreferrer" className="hover:text-red-500 transition-all duration-200">JanjyTapYT</a>
                 </p>
+                <p>
+                   <a href="https://github.com/JanjyTapYT/janjytapyt.me" target="_blank" rel="noreferrer" className="hover:text-red-500 transition-all duration-200">This site is open source on github.</a>
+                </p>
             </div>
           </div>
         </div>
