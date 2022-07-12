@@ -17,9 +17,6 @@ module.exports = {
   'plugins': [
     new CompressionPlugin(),
     new LodashModuleReplacementPlugin,
-    new webpack.optimize.UglifyJsPlugin,
-    new webpack.DefinePlugin({
-        'process.env.ASSET_PATH': JSON.stringify('./src/public/static'),
-    }),
+    new webpack.optimize.UglifyJsPlugin
   ]
 };

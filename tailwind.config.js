@@ -1,15 +1,19 @@
+const colors = require('tailwindcss/colors')
 module.exports = {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx}",
-    "./src/components/**/*.{js,ts,jsx,tsx}"
-  ],
+  mode: 'jit',
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    fontFamily: {
+      Poppins: ["Poppins", "sans-serif"]
+    },
     extend: {
       colors: {
-        cBlue: '#0B0A1F',
-        cIndigo: '#4F3DFE'
+        ...colors
       }
     },
+  },
+  variants: {
+    extend: {},
   },
   plugins: [],
 }

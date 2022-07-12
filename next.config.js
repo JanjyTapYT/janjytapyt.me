@@ -1,13 +1,15 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  redirects: () => [
-    {
-      source: '/talk',
-      destination: 'https://discord.gg/M7kaJDZtyY',
-      permanent: true
-    }
-  ]
-}
-
-module.exports = nextConfig
+module.exports = {
+  images: {
+    domains: [ "i.imgur.com", "clqu.live", "/", "cdn.discordapp.com" ]
+  },
+  mode: 'production',
+  optimization: {
+    minimizer: [
+      (compiler) => {
+        const TerserPlugin = require('terser-webpack-plugin');
+        new TerserPlugin({
+        }).apply(compiler);
+      },
+    ],
+  }
+};
