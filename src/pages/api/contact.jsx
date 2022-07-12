@@ -6,7 +6,7 @@ export default async (req, res) => {
         message: 'Invalid method.'
     });
     let { username, email, content } = req.body;
-    let _ =  await fetch(contactHook, {
+    let _ =  await fetch(process.env.contactHook, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
