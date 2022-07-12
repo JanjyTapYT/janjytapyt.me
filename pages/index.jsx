@@ -134,20 +134,6 @@ export default function Home() {
           </div>
         )}
       </div>
-      <div id="main-content">
-        <div className="bg-[#191932]/20 shadow-xl rounded-lg w-full h-auto mt-6">
-      <div className="relative">
-      <div className="flex flex-col lg:flex-row justify-between w-full p-6 px-8 items-center h-full">
-      <div className="flex flex-col lg:justify-start justify-center items-center lg:items-start mt-5 lg:mt-0 w-full">
-   
-      <p className="text-3xl text-white font-semibold">Spotify</p>
-      <p className="text-xl text-white/50 font-normal">The song I'am listening on gets displayed here.</p>
-      <iframe src="https://linkcord.swoth.xyz/api/v1/widget/679407120743137300?type=spotify&theme=dark" className={`bg-neutral-800 w-[100%] h-[140px]`}></iframe>
-      </div>
-      </div>
-      </div>
-      </div>
-</div>
       <div className="py-20">
         <p className="text-3xl text-white font-semibold">Repositories</p>
         <p className="text-xl text-white/50 font-normal">
