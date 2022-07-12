@@ -2,6 +2,13 @@
 #### [Demo](https://janjytapyt.me) - [Discord Support](https://discord.gg/PFnafbxd5u)
 
 
+## 🖥️ Hosting
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FJanjyTapYT%2Fjanjytapyt.me&env=contactHook&envDescription=Discord%20Contact%20Webhook%20URL%20(needed%20for%20contact%20page%20to%20work!)&envLink=https%3A%2F%2Fdiscord.com%2Fdevelopers%2Fdocs%2Fresources%2Fwebhook&project-name=personalwebsite&repo-name=janjytapyt.me-personal-website&demo-title=janjytapyt.me&demo-description=The%20Personal%20website%20from%20JanjyTapYT&demo-url=https%3A%2F%2Fjanjytapyt.me&demo-image=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F964255324687200328%2F996459726864908329%2Funknown.png)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/JanjyTapYT/janjytapyt.me)
+<a href="https://repl.it/github/JanjyTapYT/janjytapyt.me"><img src="https://repl.it/badge/github/JanjyTapYT/janjytapyt.me" alt="Run on replit" height="32"/></a>
+
+
 
 ## Getting Started
 
@@ -30,14 +37,6 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the Vercel Platform from the JanjyTapYT by clicking the button below:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FJanjyTapYT%2Fjanjytapyt.me&env=contactHook&envDescription=Discord%20Contact%20Webhook%20URL%20(needed%20for%20contact%20page%20to%20work!)&envLink=https%3A%2F%2Fdiscord.com%2Fdevelopers%2Fdocs%2Fresources%2Fwebhook&project-name=personalwebsite&repo-name=janjytapyt.me-personal-website&demo-title=janjytapyt.me&demo-description=The%20Personal%20website%20from%20JanjyTapYT&demo-url=https%3A%2F%2Fjanjytapyt.me&demo-image=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F964255324687200328%2F996459726864908329%2Funknown.png)
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
 ## Credits to clqu
