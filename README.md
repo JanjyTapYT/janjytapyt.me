@@ -34,7 +34,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the Vercel Platform from the JanjyTapYT by clicking the button below:
-[![Deploy with Vercel](https://vercel.com/button)](<https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FJanjyTapYT%2Fjanjytapyt.me&env=contactHook&envDescription=contactHook%20-%20Discord%20Contact%204%20Webhook%20URL%20%7C%20(REPO%2C%20USER%20Read%20perm)&envLink=https%3A%2F%2Fgithub.com%2FIgorKowalczyk%2Figorkowalczyk.github.io%2F&project-name=portfolio&repo-name=portfolio&redirect-url=https%3A%2F%2Figorkowalczyk.dev&demo-title=Igor%20Kowalczyk%20-%20Demo&demo-description=A%20sample%20(static)%20demo%20of%20this%20project%20hosted%20on%20Github&demo-url=https%3A%2F%2Figorkowalczyk.dev&demo-image=https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F905722570286960650%2F975038194464743474%2Funknown.png>)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FJanjyTapYT%2Fjanjytapyt.me&env=contactHook&envDescription=Discord%20Contact%20Webhook%20URL%20(needed%20for%20contact%20page%20to%20work!)&envLink=https%3A%2F%2Fdiscord.com%2Fdevelopers%2Fdocs%2Fresources%2Fwebhook&project-name=personalwebsite&repo-name=janjytapyt.me-personal-website&demo-title=janjytapyt.me&demo-description=The%20Personal%20website%20from%20JanjyTapYT&demo-url=https%3A%2F%2Fjanjytapyt.me&demo-image=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F964255324687200328%2F996459726864908329%2Funknown.png)
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
