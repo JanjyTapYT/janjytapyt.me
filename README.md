@@ -1,1 +1,1 @@
-# janjytapyt.live
+# janjytapyt.me

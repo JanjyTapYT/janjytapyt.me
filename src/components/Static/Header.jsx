@@ -12,7 +12,6 @@ export default function Header() {
         { label: 'Projects', redirect: '/projects', icons: { default: 'fal fa-compass', active: 'fa fa-compass' }},
         { label: 'Repositories', redirect: '/repositories', icons: { default: 'fal fa-compass', active: 'fa fa-compass' }},
         { label: 'Contact', redirect: '/contact', icons: { default: 'fal fa-phone-alt', active: 'fa fa-phone-alt' }},
-        { label: 'Newsletter', redirect: '/newsletter', icons: { default: 'fal fa-phone-alt', active: 'fa fa-phone-alt' }},
     ]
     const [scrolled, setScrolled] = useState({currentScrollHeight: 0});
     useEffect(() => {
