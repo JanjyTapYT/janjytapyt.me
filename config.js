@@ -1,7 +1,7 @@
 module.exports = {
     base: 'https://www.janjytapyt.me',
     meta: {
-        title: 'JanjyTapYT | Self-taught Web Developer',
+        title: 'JanjyTapYT | Self-taught Backend Developer',
         url: 'https://janjytapyt.me',
         description: 'View all the information about JanjyTapYT here.',
         themeColor: '#ffffff',
