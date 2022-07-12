@@ -1,5 +1,5 @@
 # janjytapyt.me - Personal Website<br/>
-#### [Demo](https://janjytapyt.me) - [Discord Support](https://discord.gg/PFnafbxd5u)
+#### [Demo](https://janjytapyt.me)
 
 
 ## 🖥️ Hosting
