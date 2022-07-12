@@ -6,7 +6,6 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FJanjyTapYT%2Fjanjytapyt.me%2Ftree%2Fv1&env=contactHook&envDescription=Discord%20Contact%20Webhook%20URL%20(needed%20for%20contact%20page%20to%20work!)&envLink=https%3A%2F%2Fdiscord.com%2Fdevelopers%2Fdocs%2Fresources%2Fwebhook&project-name=personalwebsite&repo-name=janjytapyt.me-personal-website&demo-title=janjytapyt.me&demo-description=The%20Personal%20website%20from%20JanjyTapYT&demo-url=https%3A%2F%2Fjanjytapyt.me&demo-image=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F964255324687200328%2F996459726864908329%2Funknown.png)
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/JanjyTapYT/janjytapyt.me/tree/v1)
-<a href="https://repl.it/github/JanjyTapYT/janjytapyt.me/tree/v1"><img src="https://repl.it/badge/github/JanjyTapYT/janjytapyt.me/tree/v1" alt="Run on replit" height="32"/></a>
 
 
 
